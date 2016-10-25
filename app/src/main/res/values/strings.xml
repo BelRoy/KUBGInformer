@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">КУБГ Інфо</string>
+    <string name="title_activity_kubg">КУБГ</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Меню</string>
+
+    <string name="il">Інститут людини</string>
+    <string name="pi">Педагогічний інститут</string>
+    <string name="izh">Інститут журналістики</string>
+    <string name="im">Інститут мистецтв</string>
+    <string name="ifil">Інститут філології</string>
+    <string name="iff">Історико-філософський  </string>
+    <string name="fity">Інформаційних технологій та управління </string>
+    <string name="fpmv">Факультет права</string>
+    <string name="fz">Факультет здоров’я</string>
+    <string name="yk">Коледж</string>
+
+
+    <string name="title_activity_kubg_main">КУБГ</string>
+
+
+    <string name="title_activity_grinch_infor">КУБГ</string>
+    <string name="refresh">Оновити</string>
+    <string name="sppssr">І курс (СП, СР, ЛОГ)</string>
+    <string name="pppc">І курс (ПП, ПС)</string>
+    <string name="seccourse_sp">ІІ курс (СП, СР, КО)</string>
+    <string name="seccourse_ps">ІІ курс (ПП, ПС)</string>
+    <string name="sec_dop">ІІ курс вибіркові дисципліни</string>
+    <string name="sport_sec">Спортивні секції за вибором студентів ІІ курсу</string>
+    <string name="third_sp">ІІІ курс (СП, СР, КО)</string>
+    <string name="third_ps">ІІІ курс (ПП, ПС)</string>
+    <string name="third_dop">ІІІ курс вибіркові дисципліни</string>
+    <string name="fo_sr">IV курс (СП, СР, КО)</string>
+    <string name="fo_ps">IV курс (ПП, ПС)</string>
+    <string name="fif">V курс</string>
+    <string name="six">VІ курс</string>
+</resources>
