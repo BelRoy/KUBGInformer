@@ -150,7 +150,7 @@ public class GrinchInfo extends AppCompatActivity
             Document document;
             try {
                 document = Jsoup.connect("http://kubg.edu.ua/prouniversitet/news/studentam.html").get();
-                content = document.select("contentheading");
+                content = document.select(".contentheading");
                 titleList.clear();
                 for (Element contents : content) {
                     titleList.add(contents.text());
@@ -160,5 +160,11 @@ public class GrinchInfo extends AppCompatActivity
             }
             return null;
         }
+
+        @Override
+        protected void onPostExecute(String result) {
+            listView.setAdapter(adapter);
+        }
+
     }
 }
